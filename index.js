@@ -7,7 +7,7 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/about',(req,res)=>{
-    return res.send('hello from about page '+'hey '+req.query.name)
+    return res.send('hello from your page '+'hey '+req.query.name)
 })
 
 
